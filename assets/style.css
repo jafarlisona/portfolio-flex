@@ -1,0 +1,22 @@
+.main{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio{
+    display: flex;
+}
+.portfolio .stationary{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-1.jpg);
+}
+.portfolio .caption{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-2.jpg);
+}
+.portfolio .strawberry{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-3.jpg);
+}
+.portfolio .workspace{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-4.jpg);
+}
