@@ -3,8 +3,83 @@
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
+    min-height: 1000px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 300px 0;
+}
+.main a{
+    border-radius: 5px;
+    height: 70px;
+    text-align: center;
+    padding: 25px;
+    width: 200px;
+    font-size: 18px;
+    color: white;
+    background-color: #1D809F;
 }
 
+.main h1{
+    font-size: 82px;
+}
+.main p{
+    font-size: 26px;
+    font-weight: bold;
+}
+.more{
+    min-height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 130px 0px;
+    gap: 20px;
+}
+.more h3{
+    font-size: 32px;
+}
+.more p{
+    font-size: 20px;
+}
+.more span{
+    text-decoration: underline;
+}
+.offer{
+    min-height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px 0px;
+    gap: 20px; 
+    background-color:#1D809F;
+}
+.offer .icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 300px;
+    max-width: 700px;
+}
+.offer h4{
+    color:rgb(228, 191, 30) ;
+}
+.offer h1{
+    color: white;
+    font-size: 46px;
+}
+.more a{
+    border-radius: 5px;
+    height: 65px;
+    text-align: center;
+    padding: 23px;
+    width: 180px;
+    font-size: 18px;
+    color: white;
+    background-color: #16191a;
+    margin-top: 20px;
+}
 .portfolio{
     display: flex;
 }
